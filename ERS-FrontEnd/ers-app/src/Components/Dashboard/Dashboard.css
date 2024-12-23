@@ -1,0 +1,116 @@
+/* General Layout */
+.dashboard-header {
+    padding: 10px 20px;
+    background-color: #89A8B2;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-title {
+    all: unset;
+}
+
+.dashboard-main {
+    height: calc(100vh - 60px); /* Adjust height based on header size */
+}
+
+.dashboard-sidebar {
+    background-color: #E5E1DA;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    height: 100%;
+}
+
+.dashboard-center {
+    overflow-y: auto;
+    height: 100%;
+    padding: 15px;
+    background-color: #F1F0E8;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.dashboard-actions {
+    padding: 15px;
+    background-color: #E5E1DA;
+    height: 100%;
+}
+
+/* Scrollbar for Center Content */
+.dashboard-center {
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f1f1f1;
+}
+
+.dashboard-center::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dashboard-center::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.dashboard-center::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+.reimbursements-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+#dropdown-basic {
+    background-color: #B3C8CF !important;
+}
+
+.dropdown-container {
+    background-color: #B3C8CF !important;
+    display: flex;
+    gap: 1rem;
+}
+
+#status-filter .dropdown-toggle,
+#sort-filter .dropdown-toggle {
+    background-color: #89A8B2;
+    color: #fff;
+    border: none;
+}
+
+#status-filter .dropdown-toggle:hover,
+#sort-filter .dropdown-toggle:hover {
+    background-color: #89A8B2;
+}
+
+#dropdown-basic {
+    background-color: #89A8B2;
+}
+
+.login-register-button {
+    all: unset;
+}
+
+.selected-row {
+    background-color: #89A8B2 !important;
+    border: 2px solid #063239;
+}
+
+.table .selected-row {
+    background-color: #89A8B2 !important;
+    border: 2px solid #063239 !important;
+}
+
+#reimbursement-table-approved {
+    background-color: green !important;
+    z-index: 1 !important;
+}
+
+#reimbursement-table-denied {
+    background-color: red !important;
+}
+
+#reimbursement-table-pending {
+    background-color: orange !important;
+}

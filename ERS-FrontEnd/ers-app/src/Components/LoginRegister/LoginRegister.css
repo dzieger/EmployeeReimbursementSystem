@@ -1,0 +1,26 @@
+body {
+    background-color: #B3C8CF;
+    padding: 0;
+    margin: 0;
+}
+
+.login-register-header {
+    padding-bottom: 100px;
+    background-color: #89A8B2;
+}
+
+.login-register-center {
+    background-color: #E5E1DA;
+}
+
+.header-area {
+    background-color: #89A8B2;
+}
+.header-title {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.login-register-center {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
